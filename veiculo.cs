@@ -68,19 +68,11 @@ public double GetValor(){
 }
 
 
+// método Relatório
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+public double relatorio(int novoano){
+  valor = valor - (novoano - ano)*2.05;  
+  return valor;
+}
 
 }

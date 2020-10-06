@@ -32,10 +32,19 @@ class MainClass {
     Console.Write("Digite o ano para atualizar valor :   ");
     ano = int.Parse(Console.ReadLine());
     Console.Write("O valor do carro atualizado é :   R${0} ",v3.relatorio(ano));
+    Console.ReadLine();
+    Console.Clear();
+
+    v3.relatorio2();
+    Console.ReadLine();
+    Console.Clear();
 
     Console.Write("Digite o valor das vendas do vendedor :   ");
     valor = double.Parse(Console.ReadLine());
     Console.Write("O valor que o vendedor deve receber é :   R${0} ",vend1.receber(valor)); 
+    Console.ReadLine();
+    Console.Clear();
+
 
   }
 }

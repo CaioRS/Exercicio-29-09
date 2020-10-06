@@ -1,3 +1,5 @@
+using System;
+
 class veiculo{
 
 private int rodas;
@@ -73,6 +75,11 @@ public double GetValor(){
 public double relatorio(int novoano){
   valor = valor - (novoano - ano)*2.05;  
   return valor;
+}
+
+public void relatorio2(){
+
+  Console.WriteLine("Carro 3 : {0} {1} {2} {3} {4} {5} {6} ", rodas, cor,ano,modelo, seguro, pendencia, valor);
 }
 
 }

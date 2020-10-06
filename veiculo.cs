@@ -72,14 +72,14 @@ public double GetValor(){
 
 // método Relatório
 
-public double relatorio(int novoano){
+public double Atualiza(int novoano){
   valor = valor - (novoano - ano)*2.05;  
   return valor;
 }
 
 public void relatorio2(){
 
-  Console.WriteLine("Carro 3 : {0} {1} {2} {3} {4} {5} {6} ", rodas, cor,ano,modelo, seguro, pendencia, valor);
+  Console.WriteLine("Carro 3 : Rodas:{0} \n Cor :{1} \n Ano: {2} \n Modelo: {3} \n seguro: {4} \n Pendencia: {5} \n Valor: R$ {6} ", rodas, cor,ano,modelo, seguro, pendencia, valor);
 }
 
 }

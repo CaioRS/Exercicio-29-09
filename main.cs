@@ -31,7 +31,7 @@ class MainClass {
 
     Console.Write("Digite o ano para atualizar valor :   ");
     ano = int.Parse(Console.ReadLine());
-    Console.Write("O valor do carro atualizado é :   R${0} ",v3.relatorio(ano));
+    Console.Write("O valor do carro atualizado é :   R${0} ",v3.Atualiza(ano));
     Console.ReadLine();
     Console.Clear();
 
